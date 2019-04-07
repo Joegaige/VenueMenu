@@ -4,11 +4,6 @@
     "author" : "xcode"
   },
   "resources" : [
-    {
-      "filename" : "arKit-ad-2.arreferenceimage"
-    },
-    {
-      "filename" : "arKit-ad-3.arreferenceimage"
-    }
+
   ]
 }

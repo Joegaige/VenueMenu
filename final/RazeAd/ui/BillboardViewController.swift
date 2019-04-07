@@ -114,6 +114,7 @@ extension BillboardViewController {
       let image = UIImage(named: images[indexPath.row])!
       imageCell.show(image: image)
 //this is where we will link to the UI instead of the video that is already there
+        //server with the menu from mario here probably as well
     case let videoCell as VideoCell:
       let videoUrl = "https://www.rmp-streaming.com/media/bbb-360p.mp4"
       if let sceneView = sceneView, let billboard = billboard {
