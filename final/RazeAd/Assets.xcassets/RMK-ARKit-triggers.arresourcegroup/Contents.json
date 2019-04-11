@@ -4,6 +4,8 @@
     "author" : "xcode"
   },
   "resources" : [
-
+    {
+      "filename" : "logo_2.arreferenceimage"
+    }
   ]
 }
