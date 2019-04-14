@@ -205,6 +205,11 @@ private extension AdViewController {
   }
 
   func createBillboard(center: matrix_float4x4, size: CGSize) {
+    
+    //-----------------
+    //HERE WE MUST CREATE A LIST VIEW INSTEAD
+    //-----------------
+    
     let plane = RectangularPlane(center: center, size: size)
     let rotation =
       SCNMatrix4MakeRotation(Float.pi / 2, -1.0, 0.0, 0.0)
