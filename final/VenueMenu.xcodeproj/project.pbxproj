@@ -20,8 +20,6 @@
 		57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */; };
 		57D546DE1FE576600098AC47 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D546DD1FE576600098AC47 /* TargetView.swift */; };
 		6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */; };
-		E6CE0F872263D8B30014B436 /* MenuView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6CE0F862263D8B30014B436 /* MenuView.storyboard */; };
-		E6CE0F892263D9D40014B436 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CE0F882263D9D40014B436 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +38,6 @@
 		57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardContainer.swift; sourceTree = "<group>"; };
 		57D546DD1FE576600098AC47 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
 		6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RazeAd/Assets.xcassets; sourceTree = "<group>"; };
-		E6CE0F862263D8B30014B436 /* MenuView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuView.storyboard; sourceTree = "<group>"; };
-		E6CE0F882263D9D40014B436 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +61,6 @@
 				57BB83601F8910DB00D14A14 /* Main.storyboard */,
 				57BB835E1F8910DB00D14A14 /* AdViewController.swift */,
 				57D546DD1FE576600098AC47 /* TargetView.swift */,
-				E6CE0F862263D8B30014B436 /* MenuView.storyboard */,
-				E6CE0F882263D9D40014B436 /* MenuViewController.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -194,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CE0F872263D8B30014B436 /* MenuView.storyboard in Resources */,
 				57BB83671F8910DB00D14A14 /* LaunchScreen.storyboard in Resources */,
 				57BB83621F8910DB00D14A14 /* Main.storyboard in Resources */,
 				6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */,
@@ -210,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				577395AF1FE67FAA00BD3C5A /* BillboardViewController.swift in Sources */,
-				E6CE0F892263D9D40014B436 /* MenuViewController.swift in Sources */,
 				57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */,
 				573E1ACF1FEF395D00320963 /* VideoCell.swift in Sources */,
 				57BB835F1F8910DB00D14A14 /* AdViewController.swift in Sources */,
