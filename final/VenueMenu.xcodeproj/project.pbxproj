@@ -31,7 +31,7 @@
 		573E1ACC1FEF395D00320963 /* WebBrowserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebBrowserCell.swift; sourceTree = "<group>"; };
 		573E1AD11FEF3AF400320963 /* Billboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Billboard.storyboard; sourceTree = "<group>"; };
 		577395AC1FE67FAA00BD3C5A /* BillboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillboardViewController.swift; sourceTree = "<group>"; };
-		57BB83571F8910DB00D14A14 /* RazeAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RazeAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BB83571F8910DB00D14A14 /* VenueMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VenueMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BB835A1F8910DB00D14A14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BB835E1F8910DB00D14A14 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
 		57BB83611F8910DB00D14A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		57BB83581F8910DB00D14A14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57BB83571F8910DB00D14A14 /* RazeAd.app */,
+				57BB83571F8910DB00D14A14 /* VenueMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -137,9 +137,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57BB83561F8910DB00D14A14 /* RazeAd */ = {
+		57BB83561F8910DB00D14A14 /* VenueMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57BB836B1F8910DB00D14A14 /* Build configuration list for PBXNativeTarget "RazeAd" */;
+			buildConfigurationList = 57BB836B1F8910DB00D14A14 /* Build configuration list for PBXNativeTarget "VenueMenu" */;
 			buildPhases = (
 				57BB83531F8910DB00D14A14 /* Sources */,
 				57BB83541F8910DB00D14A14 /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = RazeAd;
+			name = VenueMenu;
 			productName = ARKitTest;
-			productReference = 57BB83571F8910DB00D14A14 /* RazeAd.app */;
+			productReference = 57BB83571F8910DB00D14A14 /* VenueMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57BB83521F8910DB00D14A14 /* Build configuration list for PBXProject "RazeAd" */;
+			buildConfigurationList = 57BB83521F8910DB00D14A14 /* Build configuration list for PBXProject "VenueMenu" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -184,7 +184,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57BB83561F8910DB00D14A14 /* RazeAd */,
+				57BB83561F8910DB00D14A14 /* VenueMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -395,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57BB83521F8910DB00D14A14 /* Build configuration list for PBXProject "RazeAd" */ = {
+		57BB83521F8910DB00D14A14 /* Build configuration list for PBXProject "VenueMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57BB83691F8910DB00D14A14 /* Debug */,
@@ -404,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57BB836B1F8910DB00D14A14 /* Build configuration list for PBXNativeTarget "RazeAd" */ = {
+		57BB836B1F8910DB00D14A14 /* Build configuration list for PBXNativeTarget "VenueMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57BB836C1F8910DB00D14A14 /* Debug */,
