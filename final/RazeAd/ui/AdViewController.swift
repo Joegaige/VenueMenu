@@ -98,7 +98,13 @@ extension AdViewController: ARSessionDelegate {
   
   func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
     if let imageAnchor = anchors.compactMap({ $0 as? ARImageAnchor }).first {
-      self.createBillboard(center: imageAnchor.transform, size: imageAnchor.referenceImage.physicalSize)
+      performSegue(withIdentifier: "menuPopup", sender: nil)
+        
+        //Aagejfejhfhjfasdjhfadshjgfadshjgfdsaghjfghjadfdsjaghkfadsgjk
+        //ajdasfhjkfdhjkfdsjhkfadshjgfdshjkdfjhkg
+        //asdkhsadlfgjhsdlkjhfkljdshfkljhdasfkjl
+        
+      //self.createBillboard(center: imageAnchor.transform, size: imageAnchor.referenceImage.physicalSize)
     }
   }
 }
