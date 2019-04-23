@@ -21,6 +21,7 @@
 		57D546DE1FE576600098AC47 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D546DD1FE576600098AC47 /* TargetView.swift */; };
 		6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */; };
 		E6BE2134226FD34A0071ED4E /* Data Specification.json in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2133226FD34A0071ED4E /* Data Specification.json */; };
+		E6BE2136226FD3B80071ED4E /* ObjectClasses in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2135226FD3B80071ED4E /* ObjectClasses */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		57D546DD1FE576600098AC47 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
 		6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RazeAd/Assets.xcassets; sourceTree = "<group>"; };
 		E6BE2133226FD34A0071ED4E /* Data Specification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Data Specification.json"; sourceTree = "<group>"; };
+		E6BE2135226FD3B80071ED4E /* ObjectClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjectClasses; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		571390ED1F93C50A00A6CDB0 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				E6BE2135226FD3B80071ED4E /* ObjectClasses */,
 				E6BE2133226FD34A0071ED4E /* Data Specification.json */,
 				572EF60D1F92BC60009D75C7 /* RectangularPlane.swift */,
 				57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */,
@@ -195,6 +198,7 @@
 				57BB83671F8910DB00D14A14 /* LaunchScreen.storyboard in Resources */,
 				57BB83621F8910DB00D14A14 /* Main.storyboard in Resources */,
 				6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */,
+				E6BE2136226FD3B80071ED4E /* ObjectClasses in Resources */,
 				573E1AD21FEF3AF400320963 /* Billboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
