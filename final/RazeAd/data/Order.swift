@@ -31,12 +31,12 @@ public class Order: Codable{
     /**
      Get the total of the order.
      */
-    public func GetOrderTotal() -> Float{
+    /*public func GetOrderTotal() -> Float{
         var total: Float = 0.00
         items.forEach{
             total += $0.GetTotalPrice()
         }
         
         return total
-    }
+    }*/
 }

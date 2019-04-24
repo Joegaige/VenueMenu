@@ -20,8 +20,13 @@
 		57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */; };
 		57D546DE1FE576600098AC47 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D546DD1FE576600098AC47 /* TargetView.swift */; };
 		6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */; };
-		E6BE2134226FD34A0071ED4E /* Data Specification.json in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2133226FD34A0071ED4E /* Data Specification.json */; };
-		E6BE2136226FD3B80071ED4E /* ObjectClasses in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2135226FD3B80071ED4E /* ObjectClasses */; };
+		E6BE2134226FD34A0071ED4E /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2133226FD34A0071ED4E /* Data.json */; };
+		E6BE213A226FD9700071ED4E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */; };
+		E6BE2140226FE3F80071ED4E /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213F226FE3F80071ED4E /* ItemGroup.swift */; };
+		E6BE2141226FE3F80071ED4E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213E226FE3F80071ED4E /* Order.swift */; };
+		E6BE2142226FE3F80071ED4E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213D226FE3F80071ED4E /* Item.swift */; };
+		E6BE2143226FE3F80071ED4E /* Specialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213C226FE3F80071ED4E /* Specialization.swift */; };
+		E6BE2144226FE3F80071ED4E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213B226FE3F80071ED4E /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,8 +45,13 @@
 		57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardContainer.swift; sourceTree = "<group>"; };
 		57D546DD1FE576600098AC47 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
 		6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RazeAd/Assets.xcassets; sourceTree = "<group>"; };
-		E6BE2133226FD34A0071ED4E /* Data Specification.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Data Specification.json"; sourceTree = "<group>"; };
-		E6BE2135226FD3B80071ED4E /* ObjectClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ObjectClasses; sourceTree = "<group>"; };
+		E6BE2133226FD34A0071ED4E /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		E6BE213B226FE3F80071ED4E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		E6BE213C226FE3F80071ED4E /* Specialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialization.swift; sourceTree = "<group>"; };
+		E6BE213D226FE3F80071ED4E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E6BE213E226FE3F80071ED4E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E6BE213F226FE3F80071ED4E /* ItemGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				577395AC1FE67FAA00BD3C5A /* BillboardViewController.swift */,
 				57BB83651F8910DB00D14A14 /* LaunchScreen.storyboard */,
 				57BB83601F8910DB00D14A14 /* Main.storyboard */,
+				E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */,
 				57BB835E1F8910DB00D14A14 /* AdViewController.swift */,
 				57D546DD1FE576600098AC47 /* TargetView.swift */,
 			);
@@ -72,8 +83,12 @@
 		571390ED1F93C50A00A6CDB0 /* data */ = {
 			isa = PBXGroup;
 			children = (
-				E6BE2135226FD3B80071ED4E /* ObjectClasses */,
-				E6BE2133226FD34A0071ED4E /* Data Specification.json */,
+				E6BE213D226FE3F80071ED4E /* Item.swift */,
+				E6BE213F226FE3F80071ED4E /* ItemGroup.swift */,
+				E6BE213B226FE3F80071ED4E /* Menu.swift */,
+				E6BE213E226FE3F80071ED4E /* Order.swift */,
+				E6BE213C226FE3F80071ED4E /* Specialization.swift */,
+				E6BE2133226FD34A0071ED4E /* Data.json */,
 				572EF60D1F92BC60009D75C7 /* RectangularPlane.swift */,
 				57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */,
 			);
@@ -194,11 +209,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6BE2134226FD34A0071ED4E /* Data Specification.json in Resources */,
+				E6BE2134226FD34A0071ED4E /* Data.json in Resources */,
 				57BB83671F8910DB00D14A14 /* LaunchScreen.storyboard in Resources */,
 				57BB83621F8910DB00D14A14 /* Main.storyboard in Resources */,
 				6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */,
-				E6BE2136226FD3B80071ED4E /* ObjectClasses in Resources */,
 				573E1AD21FEF3AF400320963 /* Billboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,9 +225,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				577395AF1FE67FAA00BD3C5A /* BillboardViewController.swift in Sources */,
+				E6BE213A226FD9700071ED4E /* MenuTableViewController.swift in Sources */,
+				E6BE2140226FE3F80071ED4E /* ItemGroup.swift in Sources */,
 				57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */,
 				573E1ACF1FEF395D00320963 /* VideoCell.swift in Sources */,
 				57BB835F1F8910DB00D14A14 /* AdViewController.swift in Sources */,
+				E6BE2143226FE3F80071ED4E /* Specialization.swift in Sources */,
+				E6BE2141226FE3F80071ED4E /* Order.swift in Sources */,
+				E6BE2142226FE3F80071ED4E /* Item.swift in Sources */,
+				E6BE2144226FE3F80071ED4E /* Menu.swift in Sources */,
 				572EF60E1F92BC60009D75C7 /* RectangularPlane.swift in Sources */,
 				573E1ACE1FEF395D00320963 /* ImageCell.swift in Sources */,
 				573E1AD01FEF395D00320963 /* WebBrowserCell.swift in Sources */,
@@ -361,11 +381,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGSHZVWR3F;
+				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = RazeAd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascio1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascioswag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -380,11 +400,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BGSHZVWR3F;
+				DEVELOPMENT_TEAM = 5S34T9FQZJ;
 				INFOPLIST_FILE = RazeAd/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascio1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicholaicascioswag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;

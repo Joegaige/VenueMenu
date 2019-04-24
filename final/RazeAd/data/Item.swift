@@ -9,28 +9,28 @@ public class Item: Codable{
     public let name: String         //Name of the item - Constant
     public let price: Float         //Price of the item - Constant
     public let description: String  //Description of the item - Constant
-    public let picture: String?     //String name of the image this should link to - Constant
-    public var specializations: [Specialization]    //An array of specializations
+    //public let picture: String?     //String name of the image this should link to - Constant
+    //public var specializations: [Specialization]    //An array of specializations
     
     public init(name: String, price: Float, description: String, picture: String?){
         self.name = name
         self.price = price
         self.description = description
-        self.picture = picture
-        self.specializations = []
+       //self.picture = picture
+        //self.specializations = []
     }
     
     /**
      This will return the value of the item, and all specializations
      */
-    public func GetTotalPrice() -> Float{
+    /*public func GetTotalPrice() -> Float{
             return self.price + GetSpecializationTotal()
-    }
+    }*/
     
     /**
      This will get the value of all the specializations for this item, and return that value.
      */
-    public func GetSpecializationTotal() -> Float{
+    /*public func GetSpecializationTotal() -> Float{
         var total: Float = 0.00
         specializations.forEach{
             total += $0.GetPrice()
@@ -43,5 +43,5 @@ public class Item: Codable{
     */
     public func AddSpecialization(specialization: Specialization){
         specializations.append(specialization)
-    }
+    }*/
 }

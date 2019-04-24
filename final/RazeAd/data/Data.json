@@ -1,0 +1,175 @@
+"Breakfast":
+{
+    "ItemName":"Chick-fil-A Chicken Biscuit"
+    ,"ItemPrice":"3.59"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,{
+    "ItemName":"Chick-n-Minis"
+    ,"ItemPrice":"3.59"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,{
+    "ItemName":"Egg White Grill"
+    ,"Price":"3.95"
+}
+,{
+    "ItemName":"Bacon, Egg & Cheese Buscuit"
+    ,"Price":"3.09"
+}
+,{
+    "ItemName":"Buttered Biscuit"
+    ,"Price":"1.09"
+}
+,{
+    "ItemName":"Sunflower Multigrain Bagel"
+    ,"Price":"2.05"
+}
+,{
+    "ItemName":"Hash Browns"
+    ,"Price":"1.05"
+}
+,{
+    "ItemName":"Greek Yogurt Parfait"
+    ,"Price":"2.95"
+}
+,"Drinks":
+{
+    "ItemName":"Freshly-Brewed Iced Tea Sweetened"
+    ,"ItemPrice":"1.79"
+}
+,{
+    "ItemName":"Chick-fil-A Lemonade"
+    ,"ItemPrice":"2.09"
+}
+,{
+    "ItemName":"Soft Drink"
+    ,"ItemPrice":"1.79"
+}
+,{
+    "ItemName":"DASANI Bottled Water"
+    ,"ItemPrice":"1.79"
+}
+,{
+    "ItemName":"Simply Orange"
+    ,"ItemPrice":"2.55"
+}
+,{
+    "ItemName":"1% Chocolate Milk"
+    ,"ItemPrice":"1.39"
+}
+,{
+    "ItemName":"1% White Milk"
+    ,"ItemPrice":"1.39"
+}
+,{
+    "ItemName":"Coffee"
+    ,"ItemPrice":"1.85"
+    ,"Specialization":
+    {
+        "SpecializationName":"Sugar"
+        ,"SpecializationDescription":"Sugar"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializationName":"Creamer"
+        ,"SpecializationDescription":"Creamer"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,{
+    "ItemName":"Iced Coffee"
+    ,"ItemPrice":"2.75"
+    ,"Specialization":
+    {
+        "SpecializationName":"Sugar"
+        ,"SpecializationDescription":"Sugar"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializationName":"Creamer"
+        ,"SpecializationDescription":"Creamer"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,"Entrees":
+{
+    "ItemName":"Chick-fil-A Chicken Sandwich"
+    ,"ItemPrice":"3.79"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,{
+    "ItemName":"Chick-fil-A Deluxe Sandwich"
+    ,"ItemPrice":"4.09"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"Lettuce"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"Tomato"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"American Cheese"
+        ,"SpecializationPrice":"0.30"
+    }
+    ,{
+        "SpecializaitionName":"Pepper Jack Cheese"
+        ,"SpecializationPrice":"0.30"
+    }
+}
+,{
+    "ItemName":"Chick-fil-A Chicken Sandwich"
+    ,"ItemPrice":"4.09"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+}
+,{
+    "ItemName":"Spicy Deluxe Sandwich"
+    ,"ItemPrice":"4.39"
+    ,"Specialization":
+    {
+        "SpecializaitionName":"Pickles"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"Lettuce"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"Tomato"
+        ,"SpecializationPrice":"0.00"
+    }
+    ,{
+        "SpecializaitionName":"American Cheese"
+        ,"SpecializationPrice":"0.30"
+    }
+    ,{
+        "SpecializaitionName":"Colby Jack Cheese"
+        ,"SpecializationPrice":"0.30"
+    }
+    ,{
+        "SpecializaitionName":"Pepper Jack Cheese"
+        ,"SpecializationPrice":"0.30"
+    }
+}
