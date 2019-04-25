@@ -25,7 +25,7 @@ class MenuTableViewController: UITableViewController {
     }
 
     func parseItems(){
-            let url = Bundle.main.url(forResource:"Data", withExtension: "json")!
+        let url = Bundle.main.url(forResource:"Data", withExtension: "json")!
         let jsonData = try! Data(contentsOf: url)
         self.items = try! JSONDecoder().decode([Item].self, from: jsonData)
         self.tableView.reloadData()
@@ -58,7 +58,7 @@ class MenuTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        parseItems()
+        //parseItems()
     }
 
     /*
