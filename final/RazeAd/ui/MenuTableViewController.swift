@@ -16,7 +16,8 @@ class MenuTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //tableView.tableFooterView = UIView()
+        //tableView.reloadData()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -28,15 +29,18 @@ class MenuTableViewController: UITableViewController {
         let url = Bundle.main.url(forResource:"Data", withExtension: "json")!
         let jsonData = try! Data(contentsOf: url)
         self.items = try! JSONDecoder().decode([Item].self, from: jsonData)
-        self.tableView.reloadData()
+        print(items.count)
         
+        self.tableView.reloadData()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("setting count: \(items.count)")
         return items.count
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        print("hello")
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath as IndexPath)
         let item = items[indexPath.row]
         cell.textLabel!.text = item.name
@@ -48,7 +52,7 @@ class MenuTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return items.count
     }
 
     /*override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -57,8 +61,8 @@ class MenuTableViewController: UITableViewController {
     }*/
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        //parseItems()
+        super.viewWillAppear(animated)
+        parseItems()
     }
 
     /*

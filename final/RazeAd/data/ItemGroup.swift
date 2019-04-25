@@ -5,7 +5,7 @@
  This class is designed to hold an ItemGroup.
  */
 
-public class ItemGroup: Codable{
+public class ItemGroup: Decodable{
     public let name: String         //Name of the item group - Constant
     public let description: String  //This is a short description explain what items are grouped here and what users can expect to find
     public let picture: String?     //String name of the image this should link to - Constant

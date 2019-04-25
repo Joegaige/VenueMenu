@@ -5,7 +5,7 @@
  This class is designed to hold an ItemGroup.
  */
 
-public class Order: Codable{
+public class Order: Decodable{
     public var items: [Item]        //An array of items
     
     public init(){

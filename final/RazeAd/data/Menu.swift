@@ -5,7 +5,7 @@
  This class is designed to hold a Menu.
  */
 
-public class Menu: Codable{
+public class Menu: Decodable{
     public let name: String         //Name of the menu - Constant
     public let description: String  //Description of the menu - Constant
     public let picture: String?     //String name of the image this should link to - Constant

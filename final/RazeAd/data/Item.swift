@@ -5,7 +5,7 @@
  This class is designed to hold an Item.
  */
 
-public class Item: Codable{
+public class Item: Decodable{
     public let name: String         //Name of the item - Constant
     public let price: Float         //Price of the item - Constant
     public let description: String  //Description of the item - Constant

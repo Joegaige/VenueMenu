@@ -20,6 +20,7 @@
 		57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */; };
 		57D546DE1FE576600098AC47 /* TargetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D546DD1FE576600098AC47 /* TargetView.swift */; };
 		6AB7D6D8225FF6BF003477F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */; };
+		E645448722726C78002EDB88 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645448622726C78002EDB88 /* MyViewController.swift */; };
 		E6BE2134226FD34A0071ED4E /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = E6BE2133226FD34A0071ED4E /* Data.json */; };
 		E6BE213A226FD9700071ED4E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */; };
 		E6BE2140226FE3F80071ED4E /* ItemGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BE213F226FE3F80071ED4E /* ItemGroup.swift */; };
@@ -45,6 +46,7 @@
 		57CDBE0D1FD0D78D00D00F45 /* BillboardContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillboardContainer.swift; sourceTree = "<group>"; };
 		57D546DD1FE576600098AC47 /* TargetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetView.swift; sourceTree = "<group>"; };
 		6AB7D6D7225FF6BF003477F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = RazeAd/Assets.xcassets; sourceTree = "<group>"; };
+		E645448622726C78002EDB88 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		E6BE2133226FD34A0071ED4E /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		E6BE213B226FE3F80071ED4E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				E6BE2139226FD9700071ED4E /* MenuTableViewController.swift */,
 				57BB835E1F8910DB00D14A14 /* AdViewController.swift */,
 				57D546DD1FE576600098AC47 /* TargetView.swift */,
+				E645448622726C78002EDB88 /* MyViewController.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				57CDBE0E1FD0D78D00D00F45 /* BillboardContainer.swift in Sources */,
 				573E1ACF1FEF395D00320963 /* VideoCell.swift in Sources */,
 				57BB835F1F8910DB00D14A14 /* AdViewController.swift in Sources */,
+				E645448722726C78002EDB88 /* MyViewController.swift in Sources */,
 				E6BE2143226FE3F80071ED4E /* Specialization.swift in Sources */,
 				E6BE2141226FE3F80071ED4E /* Order.swift in Sources */,
 				E6BE2142226FE3F80071ED4E /* Item.swift in Sources */,

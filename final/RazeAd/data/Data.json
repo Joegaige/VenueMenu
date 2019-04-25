@@ -1,14 +1,15 @@
-[
-    {
-        "Name": "Fruit1",
-        "Picture": "",
-        "Description": ""
-    }
-    ,
-    {
-        "Name": "Fruit1",
-        "Picture": "",
-        "Description": ""
-    }
+    [
+        {
+            "name": "Fruit1",
+            "price": 0,
+            "description": "asdf"
+        }
+        ,
+        {
+            "name": "Fruit2",
+            "price": 0,
+            "description": "asdff"
+        }
     
-]
+    ]
+ 
